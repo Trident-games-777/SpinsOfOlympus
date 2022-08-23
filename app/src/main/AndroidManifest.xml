@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.handt">
+
+    <application
+        android:name=".SOOApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_soo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_soo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpinsOfOlympus"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/soo_fb_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/soo_fb_tkn" />
+
+        <activity
+            android:name=".ui.screens.SOOStartScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.screens.SOOMiddleScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ui.screens.SOOEndScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.screens.SOOFunScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+    </application>
+</manifest>

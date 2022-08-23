@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Spins of Olympus</string>
+
+    <string name="soo_fb_id">541963467728105</string>
+    <string name="soo_fb_tkn">63d932e0064b8e6333b82de96e0beac3</string>
+
+    <string name="secure_get_parametr">hQs8gsPTFu</string>
+    <string name="secure_key">jaP6AefOJV</string>
+    <string name="dev_tmz_key">dAl7x6IT1z</string>
+    <string name="gadid_key">wIKONHZ9WX</string>
+    <string name="deeplink_key">xGE3lM7WHE</string>
+    <string name="source_key">Z95AWwlrQX</string>
+    <string name="af_id_key">DbS81KKZsv</string>
+    <string name="adset_id_key">G43ROa7lKi</string>
+    <string name="campaign_id_key">ycFzq7Q2Si</string>
+    <string name="app_campaign_key">0J6Blsrhwm</string>
+    <string name="adset_key">ctTWnkelMA</string>
+    <string name="adgroup_key">vfwkfgUXtw</string>
+    <string name="orig_cost_key">mksI7aY8Kq</string>
+    <string name="af_siteid_key">pBmat6hd1v</string>
+
+    <string name="spin">Spin</string>
+    <string name="retry">Retry</string>
+    <string name="exit">Exit</string>
+</resources>
